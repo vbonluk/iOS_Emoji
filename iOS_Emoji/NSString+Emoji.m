@@ -1292,7 +1292,7 @@ static NSDictionary * s_cheatCodesToUnicode = nil;
                                  ([[UIDevice currentDevice].systemVersion floatValue] >= 8.3 ? @"🏾" : @""): @":skinColor4:",//brown             --> Unicode: U+1F3FE
                                  ([[UIDevice currentDevice].systemVersion floatValue] >= 8.3 ? @"🏿" : @""): @":skinColor5:" //black             --> Unicode: U+1F3FF
                                  };
-
+    
     NSMutableDictionary *reversedMap = [NSMutableDictionary dictionaryWithCapacity:[forwardMap count]];
     [forwardMap enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
         if ([obj isKindOfClass:[NSArray class]]) {
@@ -1303,7 +1303,7 @@ static NSDictionary * s_cheatCodesToUnicode = nil;
             [reversedMap setObject:key forKey:obj];
         }
     }];
-
+    
     @synchronized(self) {
         s_unicodeToCheatCodes = forwardMap;
         s_cheatCodesToUnicode = [reversedMap copy];
