@@ -88,7 +88,7 @@ emoji编码范围<http://blog.csdn.net/liujinlongxa/article/details/44207003>
 
 弹出如下图
 
-![emoji列表图](http://真无聊.com/images/ios_andorid_server_emoji/ios_andorid_server_emoji_list.png)
+![emoji列表图](http://xn--rgvu79ah1g.com/images/ios_andorid_server_emoji/ios_andorid_server_emoji_list.png)
 
 点击左上角设置按钮-->自定义列表--->勾选Unicode--->点击完成。
 
@@ -189,23 +189,23 @@ iOS：
 
 打开emoji列表，我们可以看到他的编码语法。
 
-![](http://真无聊.com/images/ios_andorid_server_emoji/2.png)
+![](http://xn--rgvu79ah1g.com/images/ios_andorid_server_emoji/2.png)
 
 总共由6个4字节的编码组成！比以前的最多3个4字节编码翻了一倍！
 
 细心的同学可以在上面控制台的图片里面发现一些端倪，上面6个4字节组成的实际上可以用已经有的emoji进行翻译！像“👩‍❤️‍👩”翻译过来就是:woman::heart::woman:，看是不是通俗易懂？至于中间的“？”号我们可以看回emoji列表里面的字节是什么，可以知道的是“U+200D”这样的东西。这样就好办了，我们可以将它转换成“\U0000200D”，那样程序就知道了。由于安卓没有这样新增的图片我们只好过滤掉这样的东西了。在文件中新增key-value如下：
 
-![](http://真无聊.com/images/ios_andorid_server_emoji/4.png)
+![](http://xn--rgvu79ah1g.com/images/ios_andorid_server_emoji/4.png)
 
 这样就可以完美过滤了。
 
 我在新增iOS9.3 emoji的过程中发现文件中的emoji国旗没有多少支持。
 
-![](http://真无聊.com/images/ios_andorid_server_emoji/5.png)
+![](http://xn--rgvu79ah1g.com/images/ios_andorid_server_emoji/5.png)
 
 对比系统emoji列表可以在文件中新增进去。
 
-![](http://真无聊.com/images/ios_andorid_server_emoji/6.png)
+![](http://xn--rgvu79ah1g.com/images/ios_andorid_server_emoji/6.png)
 
 这样就可以将app的emoji支持到最新的iOS9.3了。
 
