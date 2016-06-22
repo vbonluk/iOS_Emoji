@@ -149,7 +149,7 @@ Android：
 
 修改工具里面的编码：
 
-![Android]({{ site.url }}/images/ios_andorid_server_emoji/ios_andorid_server_emoji_android.png)
+![Android](http://xn--rgvu79ah1g.com/images/ios_andorid_server_emoji/ios_andorid_server_emoji_android.png)
 
 安卓的同学需要特别注意两点
 
