@@ -1,3 +1,7 @@
+## License:
+
+MIT
+
 # iOS_Emoji
 emoji for iOS
 
