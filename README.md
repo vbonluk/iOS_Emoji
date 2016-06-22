@@ -183,9 +183,9 @@ iOS：
 
 你会发些这一类emoji竟然连控制台也打印不出来！(我的系统是最新的10.11.4)。
 
-![](http://真无聊.com/images/ios_andorid_server_emoji/1.png)
+![](http://xn--rgvu79ah1g.com/images/ios_andorid_server_emoji/1.png)
 
-![](http://真无聊.com/images/ios_andorid_server_emoji/3.png)
+![](http://xn--rgvu79ah1g.com/images/ios_andorid_server_emoji/3.png)
 
 打开emoji列表，我们可以看到他的编码语法。
 
