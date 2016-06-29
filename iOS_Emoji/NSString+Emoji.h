@@ -5,7 +5,7 @@
 //  Created by Valerio Mazzeo on 24/04/13.
 //  Copyright (c) 2013 Valerio Mazzeo. All rights reserved.
 //
-
+#import <UIKit/UIKit.h>
 
 /**
  NSString (Emoji) extends the NSString class to provide custom functionality
