@@ -212,6 +212,8 @@ iOS：
 
 这样就可以将app的emoji支持到最新的iOS9.3了。
 
+PS：iOS 12.1兼容支持。
+
 为了大家方便我将文件开源到这里：
 <https://github.com/vbonluk/iOS_Emoji>
 
