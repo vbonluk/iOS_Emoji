@@ -18,7 +18,7 @@
 @interface NSString (Emoji)
 
 /**
- 字符转emoji
+ 字符 转 emoji
  Returns a NSString in which any occurrences that match the cheat codes
  from Emoji Cheat Sheet <http://www.emoji-cheat-sheet.com> are replaced by the
  corresponding unicode characters.
@@ -32,7 +32,7 @@
 - (NSString *)stringByReplacingEmojiCheatCodesWithUnicode;
 
 /**
- emoji转字符
+ emoji 转 字符
  Returns a NSString in which any occurrences that match the unicode characters
  of the emoji emoticons are replaced by the corresponding cheat codes from
  Emoji Cheat Sheet <http://www.emoji-cheat-sheet.com>.
